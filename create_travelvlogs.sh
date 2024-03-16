@@ -1,6 +1,7 @@
 #!/bin/bash
 # Author : Vijay
 # Script follows here:
+echo "executing $0"
 ans='yes'
 while [ $ans == 'yes' ] || [ $ans == 'YES' ]
 do
@@ -17,7 +18,7 @@ read temple
 echo -n "north india videos: "
 read north
 echo "$ksrtc $apsrtc $tnstc $tsrtc $temple $north" >> travel_data
-echo -n "do you want to continue(yes/no): "
+echo -n "Do you want to continue(yes/no): "
 read ans
 done
-echo "end of the script"
+echo "End of the script"
